@@ -1,0 +1,37 @@
+.card {
+  color: rgb(0, 0, 0);
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+  transition: transform 100ms ease-in;
+  cursor: pointer;
+  height: 270px;
+  padding: 20px;
+  align-items: center;
+  /* transition: transform 100ms; */
+}
+.card:hover {
+  transform: scale(1.09);
+}
+.card > img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.card > h2 {
+  margin-top: 12px;
+  font-size: 20px;
+}
+.card > h2 > span {
+  color: rgb(90, 28, 28);
+  font-size: 25px;
+}
+.card > h3 {
+  font-size: 20px;
+  margin-top: 12px;
+}
+.card > h3 > span {
+  color: rgb(90, 28, 28);
+  font-size: 18px;
+}
