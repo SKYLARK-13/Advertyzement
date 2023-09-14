@@ -41,6 +41,13 @@ function Navbar() {
           <h3>Advertyzement</h3>
         </div>
         <div className="navbar_right">
+          <a href="helloapp://">
+            <img src="https://control.msg91.com/app/assets/images/microservice-icon/hello.svg" alt="App Icon" />
+            <p>Open App</p>
+          </a>
+
+        </div>
+        <div className="navbar_right">
           <button className="navbar_button">
             <h2 onClick={fetchData}>Get Users</h2>
           </button>
